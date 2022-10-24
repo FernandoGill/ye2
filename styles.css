@@ -1,0 +1,88 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url(assets/back.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        margin: 1rem;
+        height: 100vh;
+        width: auto;
+        font-family: 'DM Sans', sans-serif;
+    }
+    
+    main {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 23rem;
+    }
+    
+    .buttons-up {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .buttons-up a button {
+        width: 10rem;
+        height: 3rem;
+        border-radius: 7px;
+        letter-spacing: 1px;
+        font-size: 1.7rem;
+        background: transparent;
+        color: red;
+        border: none;
+        font-weight: bold;
+        font-family: 'DM Sans', sans-serif;
+        text-decoration: underline 2px solid #f8df55;
+    }
+
+    .buttons-up img {
+        width: 9rem;
+    }
+    
+    .list {
+        width: 19rem;
+        height: 5rem;
+        border: none;
+        background-color: transparent;
+        letter-spacing: 1px;
+        font-size: 1.5rem;
+        color: white;
+        border: 1px solid white;
+        margin-bottom: 2rem;
+    }
+    
+    main a {
+        text-decoration: none;
+        color: black;
+    }
+
+    main audio {
+        height: 3.2rem;
+        width: 25rem;
+        margin-bottom: 2rem;
+    }
+
+    .buttons-down a {
+        color: red;
+        font-size: 1.6rem;
+        font-weight: bold;
+        text-decoration: underline 2px solid #f8df55;
+    }
+}
